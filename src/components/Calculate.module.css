@@ -1,0 +1,87 @@
+.calculate {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+.calculate p {
+  color: #fff;
+}
+.modal {
+  width: 60%;
+  height: 80vh;
+  background-color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 4rem 0;
+}
+.btn {
+  display: flex;
+  align-items: center;
+  width: 80%;
+  margin: 0 auto;
+  justify-content: center;
+  gap: 2rem;
+}
+.btn-close {
+  padding: 1rem 2rem;
+  background-color: #f00;
+  color: #fff;
+  border-radius: 24px;
+  border: none;
+  width: 50%;
+}
+.btn-calculate {
+  padding: 1rem 2rem;
+  background-color: var(--segundo);
+  color: #fff;
+  border-radius: 24px;
+  border: none;
+  width: 50%;
+}
+.modal form {
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+  gap: 1rem;
+  flex-direction: column;
+}
+.modal form div {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.modal form div label {
+  color: var(--primero);
+}
+.modal form div input {
+  border: none;
+  border-bottom: 1px solid var(--segundo);
+  border-radius: 4px;
+  outline: none;
+  padding: 0.6rem;
+  font-size: 1.8rem;
+}
+.modal form div select {
+  padding: 0.6rem;
+  font-size: 1.8rem;
+  font-family: 'Montserrat', sans-serif;
+  outline: none;
+}
+.title {
+  width: 80%;
+  margin: 0 auto;
+}
+@media screen and (max-width: 768px) {
+  .modal {
+    width: 95%;
+  }
+}

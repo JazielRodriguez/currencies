@@ -1,0 +1,55 @@
+:root {
+  --primero: #023047;
+  --segundo: #219ebc;
+  --tercero: #ffb703;
+  --cuarto: #8ecae6;
+}
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+body {
+  font-family: sans-serif;
+  background-color: var(--primero);
+  font-family: 'Montserrat', sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+*,
+::before,
+::after {
+  box-sizing: inherit;
+}
+h1 {
+  font-size: 4rem;
+}
+h2 {
+  font-size: 3.2rem;
+}
+h3 {
+  font-size: 2.6rem;
+}
+p,
+a,
+label,
+input,
+button {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.8rem;
+}
+img {
+  width: 100%;
+}
+ul,
+ol,
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
